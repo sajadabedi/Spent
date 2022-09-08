@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         HStack {
-            Image(systemName: "xmark")
             Text("Spend app")
                 .padding()
         }
