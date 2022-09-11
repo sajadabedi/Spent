@@ -16,6 +16,7 @@ struct ContentView: View {
                         Text("Overview")
                             .font(.title2)
                             .fontWeight(.bold)
+                        RecentTransactionList()
                     }
                     .padding()
                     .frame(maxWidth: .infinity)
@@ -38,11 +39,17 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    static let transactionListVM: TransactionListViewModal = {
+        let transactionListVM = TransactionListViewModal()
+        transactionListVM.transactions = transactionListPreviewData
+        return transactionListVM
+    }()
     static var previews: some View {
         Group {
             ContentView()
             ContentView()
                 .preferredColorScheme(.dark)
         }
+        .environmentObject(transactionListVM)
     }
 }

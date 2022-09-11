@@ -16,6 +16,8 @@
 		641C676D28CE38C800C0D0EE /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641C676C28CE38C800C0D0EE /* PreviewData.swift */; };
 		641C676F28CE396900C0D0EE /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641C676E28CE396900C0D0EE /* TransactionRow.swift */; };
 		641C677228CE400B00C0D0EE /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = 641C677128CE400B00C0D0EE /* SwiftUIFontIcon */; };
+		641C677428CE615E00C0D0EE /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641C677328CE615E00C0D0EE /* TransactionListViewModel.swift */; };
+		641C677628CE661B00C0D0EE /* RecentTransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641C677528CE661B00C0D0EE /* RecentTransactionList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		641C676A28CE37A400C0D0EE /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		641C676C28CE38C800C0D0EE /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		641C676E28CE396900C0D0EE /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		641C677328CE615E00C0D0EE /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		641C677528CE661B00C0D0EE /* RecentTransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +67,9 @@
 			children = (
 				641C675628CA2D6700C0D0EE /* SpentApp.swift */,
 				641C675828CA2D6700C0D0EE /* ContentView.swift */,
+				641C677528CE661B00C0D0EE /* RecentTransactionList.swift */,
 				641C676E28CE396900C0D0EE /* TransactionRow.swift */,
+				641C677328CE615E00C0D0EE /* TransactionListViewModel.swift */,
 				641C676828CE342400C0D0EE /* Extensions.swift */,
 				641C676A28CE37A400C0D0EE /* TransactionModel.swift */,
 				641C675A28CA2D6900C0D0EE /* Assets.xcassets */,
@@ -158,10 +164,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				641C676D28CE38C800C0D0EE /* PreviewData.swift in Sources */,
+				641C677628CE661B00C0D0EE /* RecentTransactionList.swift in Sources */,
 				641C676B28CE37A400C0D0EE /* TransactionModel.swift in Sources */,
 				641C675928CA2D6700C0D0EE /* ContentView.swift in Sources */,
 				641C676F28CE396900C0D0EE /* TransactionRow.swift in Sources */,
 				641C676928CE342400C0D0EE /* Extensions.swift in Sources */,
+				641C677428CE615E00C0D0EE /* TransactionListViewModel.swift in Sources */,
 				641C675728CA2D6700C0D0EE /* SpentApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
